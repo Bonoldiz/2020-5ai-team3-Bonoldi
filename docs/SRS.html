@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Software Requirements Specification<br><br>Team 3</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="software-requirements-specificationbrbrteam-3">Software Requirements Specification<br><br>Team 3</h1>
+<p><em>December , 2019</em></p>
+<p><em>Version 1</em></p>
+<p><em>Prepared by: Bonoldi Enrico</em></p>
+<h1 id="table-of-contents">Table of Contents</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 <strong>INTRODUCTION</strong></td>
+</tr>
+<tr>
+<td>   <em>1.1</em> Overview</td>
+</tr>
+<tr>
+<td>   <em>1.2</em> Goals and Objectives</td>
+</tr>
+<tr>
+<td>   <em>1.3</em> Scope</td>
+</tr>
+<tr>
+<td>   <em>1.4</em> Definitions</td>
+</tr>
+<tr>
+<td>2 <strong>GENERAL DESIGN CONSTRAINTS</strong></td>
+</tr>
+<tr>
+<td>   <em>2.1</em> PCTO Manager Environment</td>
+</tr>
+<tr>
+<td>   <em>2.2</em> User Characteristics</td>
+</tr>
+<tr>
+<td>   <em>2.3</em> Mandated Constraints</td>
+</tr>
+<tr>
+<td>3 <strong>NONFUNCTIONAL REQUIREMENTS</strong></td>
+</tr>
+<tr>
+<td>  <em>3.1</em> Operational Requirements</td>
+</tr>
+<tr>
+<td>  <em>3.2</em> Performance Requirements</td>
+</tr>
+<tr>
+<td>  <em>3.3</em> Security Requirements</td>
+</tr>
+<tr>
+<td>  <em>3.4</em> Documentation and Training</td>
+</tr>
+<tr>
+<td>  <em>3.5</em> External Interface</td>
+</tr>
+<tr>
+<td>     <em>3.5.1</em> User Interface</td>
+</tr>
+<tr>
+<td>     <em>3.5.2</em> Software Interface</td>
+</tr>
+<tr>
+<td>4 <strong>FUNCTIONAL REQUIREMENTS</strong></td>
+</tr>
+<tr>
+<td>  <em>4.1</em> Required Features</td>
+</tr>
+<tr>
+<td>     <em>4.1.1</em> Use Case: 1</td>
+</tr>
+<tr>
+<td>     <em>4.1.2</em> Use Case: 2</td>
+</tr>
+<tr>
+<td>     <em>4.1.3</em> Use Case: 3</td>
+</tr>
+<tr>
+<td>     <em>4.1.4</em> Use Case: 4</td>
+</tr>
+<tr>
+<td>  <em>4.2</em> Optional Features</td>
+</tr>
+<tr>
+<td>    <em>4.2.1</em> Use Case: 5</td>
+</tr>
+</tbody>
+</table>
+<p>Revision History</p>
+<table>
+<thead>
+<tr>
+<th><strong>Version</strong></th>
+<th><strong>Date</strong></th>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>12/01/19</td>
+<td>Bonoldi Enrico</td>
+<td>Initial Document</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>1</em> <strong>Introduction</strong></p>
+<p><em>1.1</em> <strong>Overview</strong></p>
+<p>The PCTO manager will be a system that will be available for the ITIS G.Marconi to manage the PCTO activity.</p>
+<p>The application will provide access to students data related to their PCTO activities.</p>
+<p>The app will allow teachers to plan activities and students to report theirstatus about documentation .</p>
+<p>This document provides information on the requirements for the PCTO manager software application.  Project goals, scope and definitions are given in the introduction.  Design constraints and application environment are described in the following section. Functional requirements are given to show the system features and expected user interaction.  Nonfunctional requirements give a better idea about the whole project.NonFunction</p>
+<p>Project constraints will be included in separate documentation.  The Software Project Management Plan will give specifics on project budget and schedule.</p>
+<p><em>1.2</em> <strong>Goals and Objectives</strong></p>
+<p>The main objective of this project is to allow teachers a way to access PCTO schedules related to their students from any browser.</p>
+<p>The PCTO Manager application is expected to:</p>
+<ol>
+<li>Provide a system to manage data from and to Spaggiari (ETL).</li>
+<li>Provide an API system to access PCTO data.</li>
+<li>Provide a friendly web UI.</li>
+</ol>
+<p><em>1.3</em> <strong>Scope</strong></p>
+<p>The PCTO Manager application will provide users a method to access information about their students records about PCTO activities from any device via browser.</p>
+<p>Users will be able to check and update their status about documentation or other legal stuffs through the web app.</p>
+<p><em>1.4</em> <strong>Definitions</strong></p>
+<p><strong>PCTO Manager</strong>  <strong>Application</strong> – the product that is being described here; the software system specified in this document.</p>
+<p><strong>Project</strong> – activities that will lead to the production of the PCTO Manager application.</p>
+<p><strong>Client</strong> – the person or organization for which thisapplication is being built.</p>
+<p><strong>User</strong> – the person or persons who will actually interact with the PCTO Manager application.</p>
+<p><strong>Use case</strong> – describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.</p>
+<p><strong>Scenario</strong> – one path through a user case</p>
+<p><strong>Actor</strong> – user or other software system that receives value from a user case.</p>
+<p><strong>Developer</strong> – the person or organization developing the system, also sometimes called the supplier.</p>
+<p><strong>Stakeholder</strong> – anyone with an interest in the project and its outcomes. This includes clients, customers, users, developers, testers, managers and executives.</p>
+<hr>
+<p><em>2</em> <strong>General Design Constraints</strong></p>
+<p><em>2.1</em> <strong>PCTO Manager Environment</strong></p>
+<p>The PCTO Manager product will include a web app designed to work on any browser.</p>
+<p>This application will interface with an API system served from a backend application of out design.</p>
+<p>This API system will interface with the database.</p>
+<p>The backend system will be designed to import and export data related to students and companies.</p>
+<p><em>2.2</em> <strong>User Characteristics</strong></p>
+<p><strong>PCTO Manager</strong>  <strong>Users</strong> : ITIS G.Marconi students (3rd and 4th year), teachers and staff.</p>
+<p><em>2.3</em> <strong>Mandated Constraints</strong></p>
+<p>The application will run on any browser.</p>
+<p>This platform was chosen based on experience with web development and backend systems.</p>
+<hr>
+<p><em>3</em> <strong>Nonfunctional Requirements</strong></p>
+<p><em>3.1</em> <strong>Operational Requirements</strong></p>
+<p>Usability: Users will not need to read the user manual to be able to use the application as a prospective otherwise for a better usage is suggested to read the user manual.</p>
+<p>Flexibility: the whole app is designed to support a lot of tabular data</p>
+<p><em>3.2</em> <strong>Performance Requirements</strong></p>
+<p>Maintainability: As any back/front system the app is splitted between presentation and business side, these are standalone.</p>
+<p><em>3.3</em> <strong>Security Requirements</strong></p>
+<p>The PCTO Manager app has a secury layer that allows to identify the entity as students or teacher.</p>
+<p>Each User has is own pair of username and password.</p>
+<p>The PCTO data is protected as private data and no other data is collected.</p>
+<p><em>3.4</em> <strong>Documentation and Training</strong></p>
+<p>The PCTO Manager application will be delivered to the school  as a web app.</p>
+<p>A user guide and system documentation will be provided to project stakeholders.</p>
+<p><em>3.5</em> <strong>External Interface</strong></p>
+<p><em>3.5.1</em> <strong>User Interface</strong></p>
+<p>The user interface will be friendly and clear.</p>
+<p>When users access their accounts the interface will provide based on their entity type (student or teacher).</p>
+<p>The interface will be intuitive.</p>
+<p>As a web app it will be streamlined and simple to use.</p>
+<p>Training will be provided to a close stakeholders group.</p>
+<p><em>3.5.2</em> <strong>Software Interface</strong></p>
+<p>The PCTO Manager API system will serve as an interface between the Web application and the frontend application.</p>
+<hr>
+<p><em>4</em> <strong>Functional Requirements</strong></p>
+<p><em>4.1</em> <strong>Required Features</strong></p>
+<p><em>4.1.1</em> <strong>Use Case: 1</strong></p>
+<p><strong>Description: User Login / Check</strong>  <strong>Entity Type</strong></p>
+<p>Actors: Any application user</p>
+<p>Value = high</p>
+<p>Cost = medium</p>
+<p>Basic Path</p>
+<ol>
+<li>User access the URL for the web app.</li>
+<li>If the user has a valid ID (token) the web App read it and authenticate the user otherwise shows up a login page.</li>
+<li>The login page is defined by two text box with username and password.</li>
+<li>If this pair is valid a new ID(token) is give to the user instance otherwise an error badge is prompt</li>
+</ol>
+<p><em>4.1.2</em> <strong>Use Case: 2</strong></p>
+<p><strong>Description:</strong>  <strong>Teacher companies/students view</strong></p>
+<p>Actors: Any teacher</p>
+<p>Value = high</p>
+<p>Cost = medium</p>
+<p>Basic Path</p>
+<ol>
+<li>User clicks the user/company icon in the navbar.</li>
+<li>User will be able to access/filter tabular that represents the selected resource.</li>
+</ol>
+<p><em>4.1.3</em> <strong>Use Case: 3</strong></p>
+<p><strong>Description: Teacher companies/students details view</strong></p>
+<p>Actors: Any teacher</p>
+<p>Value = high</p>
+<p>Cost = medium</p>
+<p>Basic Path</p>
+<ol>
+<li>User clicks on any user/company row in the companies/students view table.</li>
+<li>User will be able to access a section with details about the selected resource.</li>
+</ol>
+<p><em>4.1.4</em> <strong>Use Case: 4</strong></p>
+<p><strong>Description: Student view</strong></p>
+<p>Actors: Any student</p>
+<p>Value = low</p>
+<p>Cost = medium</p>
+<p>Basic Path</p>
+<ol>
+<li>User access the home page.</li>
+<li>User will be able to access details about the account and the editable status of the his documentation.</li>
+</ol>
+<p><em>4.2</em> <strong>Optional Features</strong></p>
+<p><em>4.2.1</em> <strong>Use Case: 5</strong></p>
+<p><strong>Description: Teacher edit companies/students details view</strong></p>
+<p>Actors: Any teacher</p>
+<p>Value = medium</p>
+<p>Cost = high</p>
+<p>Basic Path</p>
+<ol>
+<li>User clicks on any user/company row in the companies/students view table.</li>
+<li>User will be able to edit details about the selected resource.</li>
+</ol>
+
+    </body>
+    </html>

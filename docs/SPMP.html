@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Software Project Management Plan <br><br> Team 3</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="software-project-management-plan-brbr-team-3">Software Project Management Plan <br><br> Team 3</h1>
+<p><em>January 3, 2020</em></p>
+<p><strong>Team Members</strong></p>
+<ul>
+<li>Ambrosi Marco</li>
+<li>Bonoldi Enrico</li>
+<li>Lorenzoni Luca</li>
+</ul>
+<hr>
+<p><strong>Change History</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Revision</strong></th>
+<th><strong>Change Date</strong></th>
+<th><strong>Description of changes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V1.0</td>
+<td>12/19/19</td>
+<td>Alpha release</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Document Storage</strong></p>
+<p>This document is stored in the project's github repo.</p>
+<p><a href="https://github.com/Bonoldiz/2020-5ai-team3-Bonoldi.git">https://github.com/Bonoldiz/2020-5ai-team3-Bonoldi.git</a></p>
+<p><strong>Document Owner</strong> <em>Enrico Bonoldi</em> <br>
+<em>Enrico Bonoldi is responsible for developing and maintaining this document.</em></p>
+<hr>
+<h1 id="table-of-contents">Table of Contents</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 <strong>OVERVIEW</strong></td>
+</tr>
+<tr>
+<td>   <em>1.1</em> <a href="#PurposeandScope">Purpose and Scope</a></td>
+</tr>
+<tr>
+<td>   <em>1.2</em> <a href="#GoalsandObjectives">Goals and Objectives</a></td>
+</tr>
+<tr>
+<td>   <em>1.3</em> <a href="#ProjectDeliverables">Project Deliverables</a></td>
+</tr>
+<tr>
+<td>   <em>1.4</em> <a href="#AssumptionsandConstraints">Assumptions and Constraints</a></td>
+</tr>
+<tr>
+<td>      <em>1.4.1</em> <a href="#Assumptions">Assumptions</a></td>
+</tr>
+<tr>
+<td>      <em>1.4.2</em> <a href="#Constraints">Constraints</a></td>
+</tr>
+<tr>
+<td>   <em>1.5</em> <a href="#ScheduleandBudgetSummary">Schedule and Budget Summary</a></td>
+</tr>
+<tr>
+<td>      <em>1.5.1</em> <a href="#CostEstimate">Cost Estimate</a></td>
+</tr>
+<tr>
+<td>      <em>1.5.2</em> <a href="#ScheduleSummary">Schedule Summary</a></td>
+</tr>
+<tr>
+<td>   <em>1.6</em> <a href="#SuccessCriteria">Success Criteria</a></td>
+</tr>
+<tr>
+<td>   <em>1.7</em> <a href="#Definitions">Definitions</a></td>
+</tr>
+<tr>
+<td>2 <strong>STARTUP PLAN</strong></td>
+</tr>
+<tr>
+<td>   <em>2.1</em> <a href="#TeamOrganization">Team Organization</a></td>
+</tr>
+<tr>
+<td>   <em>2.2</em> <a href="#ProjectCommunications">Project Communications</a></td>
+</tr>
+<tr>
+<td>   <em>2.3</em> <a href="#TechnicalProcess">Technical Process</a></td>
+</tr>
+<tr>
+<td>   <em>2.4</em> <a href="#Tools">Tools</a></td>
+</tr>
+<tr>
+<td>3 <strong>WORK PLAN</strong></td>
+</tr>
+<tr>
+<td>   <em>3.1</em> <a href="#ResourceEstimate">Resource Estimate</a></td>
+</tr>
+<tr>
+<td>   <em>3.2</em> <a href="#ReleasePlan">Release Plan</a></td>
+</tr>
+<tr>
+<td>      <em>3.2.1</em> <a href="#PlanByFeature">Plan By Feature</a></td>
+</tr>
+<tr>
+<td>   <em>3.3</em> <a href="#IterationPlans">Iteration Plans</a></td>
+</tr>
+<tr>
+<td>      <em>3.3.1</em> <a href="#FirstIteration">First Iteration</a></td>
+</tr>
+<tr>
+<td>      <em>3.3.2</em> <a href="#SecondIteration">Second Iteration</a></td>
+</tr>
+<tr>
+<td>      <em>3.3.3</em> <a href="#ThirdIteration">Third Iteration</a></td>
+</tr>
+<tr>
+<td>      <em>3.3.3</em> <a href="#FinalProduct">Final Product</a></td>
+</tr>
+<tr>
+<td>4 <strong>CONTROL PLAN</strong></td>
+</tr>
+<tr>
+<td>   <em>4.1</em> <a href="#MonitoringandControl">Monitoring and Control</a></td>
+</tr>
+<tr>
+<td>   <em>4.2</em> <a href="#ConfigurationManagementPlan">Configuration Management Plan</a></td>
+</tr>
+<tr>
+<td>5 <strong>SUPPORTING PROCESS PLANS</strong></td>
+</tr>
+<tr>
+<td>   <em>5.1</em> <a href="#RiskManagementPlan">Risk Management Plan</a></td>
+</tr>
+<tr>
+<td>   <em>5.2</em> <a href="#TestPlan">Test Plan</a></td>
+</tr>
+<tr>
+<td>   <em>5.3</em> <a href="#ProductAcceptancePlan1">Product Acceptance Plan </a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>1</em> <strong>Overview</strong> <br><br> <a name="PurposeandScope"></a><em>1.1</em> <strong>Purpose and Scope</strong></p>
+<p>Team 3 has been developing a web application in order to help students to easily manage their PCTO experience reports and teachers to associate people with the right companies. The software aims to ease the process of association between the student and the company, which right now is really difficult and long for everyone.</p>
+<p>The project is designed for the students of the school, their responsible teachers and the responsible of the whole school's PCTO system. This means it will manage the school's internal associations, updating an internal database and Spaggiari's one at the same time.</p>
+<p>The user interface will be intuitive and simple to navigate. A user guide and system</p>
+<p>administration manual will be provided.</p>
+<p><em>1.2</em> <strong>Goals and Objectives</strong> <a name="GoalsandObjectives"></a></p>
+<p>The general objective of this project is to create a web application that manages the students' PCTO activities in a simple but effective way.</p>
+<p>Project Goals:</p>
+<ol>
+<li>Create a web application that is useful and looks good.</li>
+<li>Give the school a web application that best meets the needs of students when looking for a company</li>
+<li>Give the PCTO manager a web application to easily manage relations between students and companies.</li>
+<li>Learn about software engineerin</li>
+</ol>
+<p>Project Objectives:</p>
+<ol>
+<li>Create a web application that functions in a simple and intuitive manner.</li>
+<li>Provide students with the companies with their respective requirements and characteristics, to decide where to go to carry out the PCTO activity.</li>
+</ol>
+<p><em>1.3</em> <strong>Project Deliverables</strong> <a name="ProjectDeliverables"></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Date</strong></th>
+<th><strong>Deliverable</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10/14/19</td>
+<td>Division of tasks</td>
+</tr>
+<tr>
+<td>10/21/19</td>
+<td>Project sketch</td>
+</tr>
+<tr>
+<td>11/07/19</td>
+<td>Work on school databases</td>
+</tr>
+<tr>
+<td>11/21/19</td>
+<td>Data export</td>
+</tr>
+<tr>
+<td>12/05/19</td>
+<td>Creating the frontend</td>
+</tr>
+<tr>
+<td>12/19/19</td>
+<td>Alpha release</td>
+</tr>
+</tbody>
+</table>
+<p><em>1.4</em> <strong>Assumptions and Constraints</strong><a name="AssumptionsandConstraints"></a><br><br><em>1.4.1</em> <strong>Assumptions</strong><a name="Assumptions"></a></p>
+<ol>
+<li>Data from Spaggiari's database will always be correct and up to date.</li>
+<li>Data from SIGMA database will always be correct and up to date.</li>
+<li>Users will be able to use the application without problems.</li>
+</ol>
+<p><em>1.4.2</em> <strong>Constraints</strong> <a name="Constraints"></a></p>
+<ol>
+<li>The application will need a school machine to work.</li>
+</ol>
+<p><em>1.5</em> <strong>Schedule and Budget Summary</strong> <a name="ScheduleandBudgetSummary"></a><br><br><em>1.5.1</em> <strong>Cost Estimate</strong> <a name="CostEstimate"></a></p>
+<p>There are no costs.</p>
+<p><em>1.5.2</em> <strong>Schedule Summary</strong> <a name="ScheduleSummary"></a></p>
+<p><img src="data:image/png;base64,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" alt=""></p>
+<p><em>1.6</em> <strong>Success Criteria</strong> <a name="SuccessCriteria"></a></p>
+<p>A working, easy-to-use prototype that allows students and professors to easily manage PCTO activities.</p>
+<p><em>1.7</em> <strong>Definitions</strong> <a name="Definitions"></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Term</strong></th>
+<th><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PCTO Manager Application</strong></td>
+<td>the product that is being described here; the software system specified in this document.</td>
+</tr>
+<tr>
+<td><strong>Project</strong></td>
+<td>activities that will lead to the production of the PCTO Manager application.</td>
+</tr>
+<tr>
+<td><strong>Client</strong></td>
+<td>the person or organization for which this application is being built.</td>
+</tr>
+<tr>
+<td><strong>User</strong></td>
+<td>the person or persons who will actually interact with the PCTO Manager application.</td>
+</tr>
+<tr>
+<td><strong>Use case</strong></td>
+<td>describes a goal-oriented interaction between the system and an actor. A use case may define several variants called scenarios that result in different paths through the use case and usually different outcomes.</td>
+</tr>
+<tr>
+<td><strong>Scenario</strong></td>
+<td>one path through a user case</td>
+</tr>
+<tr>
+<td><strong>Actor</strong></td>
+<td>user or other software system that receives value from a user case.</td>
+</tr>
+<tr>
+<td><strong>Developer</strong></td>
+<td>the person or organization developing the system, also sometimes called the supplier.</td>
+</tr>
+<tr>
+<td><strong>Stakeholder</strong></td>
+<td>anyone with an interest in the project and its outcomes. This includes clients, customers, users, developers, testers, managers and executives.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>2</em> <strong>Startup Plan</strong><a name="StartupPlan"></a><br><br>
+<em>2.1</em> <strong>Team Organization</strong><a name="TeamOrganization"></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Role</strong></th>
+<th>** Actor(s)**</th>
+<th><strong>Responsibility</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Manager</td>
+<td>Bonoldi Enrico</td>
+<td>Call team meetings, coordinate communications within group, coordinate communications outside group, break out tasks, assign them to teammates</td>
+</tr>
+<tr>
+<td>Developer</td>
+<td>Ambrosi Marco, Lorenzoni Luca</td>
+<td>Develop software based on requirement and architect specifications</td>
+</tr>
+<tr>
+<td>Programmer</td>
+<td>Bonoldi Enrico</td>
+<td>Program to requirement and architect specifications</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Ambrosi Marco, Lorenzoni</td>
+<td>Write test cases, perform unit testing of test cases against incremental release of code, perform integrated testing of test cases against incremental release of code, report issues</td>
+</tr>
+<tr>
+<td>Architect</td>
+<td>Bonoldi Enrico</td>
+<td>Specify overall internal workings of application</td>
+</tr>
+<tr>
+<td>Requirement Engineer</td>
+<td>Bonoldi Enrico</td>
+<td>Outline and document project dependencies and requirements. This includes internal and external dependencies.</td>
+</tr>
+</tbody>
+</table>
+<p><em>2.2</em> <strong>Project Communications</strong> <a name="ProjectCommunications"></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Event</strong></th>
+<th><strong>Information</strong></th>
+<th><strong>Audience</strong></th>
+<th><strong>Format</strong></th>
+<th><strong>Frequency</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Team Meeting</td>
+<td>Task status: completed since last meeting &amp; planned for later;obstacles encountered; change requests in process</td>
+<td>All team members</td>
+<td>Informal meetings following class; Formal meetings as needed</td>
+<td>As needed</td>
+</tr>
+<tr>
+<td>Project Status Report</td>
+<td>Review finished items, status of prototype; review any problems</td>
+<td>All team members, customer</td>
+<td>E-mail with information or In-person as customer sees fit</td>
+<td>Iteration Closeout</td>
+</tr>
+</tbody>
+</table>
+<p><em>2.3</em> <strong>Technical Process</strong> <a name="TechnicalProcess"></a></p>
+<p>An iterative and incremental development process is planned.  Feedback will be used from each iteration to improve the next.  The first iteration will focus on basic functionality of the application.  Subsequent iterations will build upon that and incorporate more features as time allows.</p>
+<p><em>2.4</em> <strong>Tools</strong><a name="Tools"></a></p>
+<ul>
+<li>Programming &amp; Markup Languages - HTML, CSS, JavaScript, PHP</li>
+<li>Operating System – Windows, Linux</li>
+<li>Version Control – all work products will be stored in an GitHub repository</li>
+<li>Development Tools – Atom, Visual Studio Code</li>
+<li>API - laravel (a php framework) &amp; ReactJs (a frontend library)</li>
+</ul>
+<hr>
+<p><em>3</em> <strong>Work Plan</strong> <a name="WorkPlan"></a><br><br>
+<em>3.1</em> <strong>Resource Estimate</strong> <a name="ResourceEstimate"></a></p>
+<p>In this document, tasks, roles, owners, and effort estimates and actuals are listed.</p>
+<p><em>3.2</em> <strong>Release Plan</strong> <a name="ReleasePlan"></a>
+<em>3.2.1</em> <strong>Plan By Feature</strong> <a name="PlanByFeature"></a></p>
+<p><strong>Iteration #1</strong> | <strong>10/20 – 10/27</strong></p>
+<p><strong>Summary:</strong> Project design and division of tasks</p>
+<table>
+<thead>
+<tr>
+<th><em>Features / Deliverables</em></th>
+<th><strong>Estimated Effort</strong></th>
+<th><strong>Actual Effort</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Architecture / framework design</td>
+<td>50</td>
+<td>75</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Iteration #2</strong> | <strong>10/28 – 11/24</strong></p>
+<p><strong>Summary:</strong> Realisation of the backend.</p>
+<table>
+<thead>
+<tr>
+<th><em>Features / Deliverables</em></th>
+<th><strong>Estimated Effort</strong></th>
+<th><strong>Actual Effort</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Export CSV</td>
+<td>20</td>
+<td>20</td>
+</tr>
+<tr>
+<td>SIGMA interaction</td>
+<td>20</td>
+<td>50</td>
+</tr>
+<tr>
+<td>API</td>
+<td>80</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Iteration #3</strong> <strong>11/25 – 12/19</strong></p>
+<p><strong>Summary:</strong> Realisation of the frontend.</p>
+<table>
+<thead>
+<tr>
+<th><em>Features / Deliverables</em></th>
+<th><strong>Estimated Effort</strong></th>
+<th><strong>Actual Effort</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API</td>
+<td>50</td>
+<td>60</td>
+</tr>
+<tr>
+<td>React Hooks</td>
+<td>50</td>
+<td>60</td>
+</tr>
+<tr>
+<td>React States and User Interface</td>
+<td>40</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Features not scheduled, but under consideration</strong></p>
+<table>
+<thead>
+<tr>
+<th><em>Features</em></th>
+<th><strong>Estimated Effort</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Student, teacher and company communication via email</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>3.3</em> <strong>Iteration Plans</strong> <a name="IterationPlans"></a></p>
+<p>A detailed iteration plan will be provided for Iteration 1.  Further task details are available in the schedule.</p>
+<p><em>3.3.1</em> <strong>First Iteration</strong><a name="FirstIteration"></a></p>
+<p>Data exports will be analyzed and normalized.</p>
+<p>A mock up of the frontend will be distributed to the external stakeholders.</p>
+<p><em>3.3.2</em> <strong>Second Iteration</strong> <a name="SecondIteration"></a></p>
+<p>The backend application will interact with the collected data.</p>
+<p>The API system  will be exposed while testing.</p>
+<p><em>3.3.3</em> <strong>Third Iteration</strong> <a name="ThirdIteration"></a></p>
+<p>The frontend application will interact with the API system.</p>
+<p>User experience will be collected to enhance the final build .</p>
+<p><em>3.3.4</em> <strong>Final Product</strong> <a name="FinalProduct"></a></p>
+<p>The final web app will be exposed to the school network with a safe access system.</p>
+<hr>
+<p><em>4</em> <strong>Control Plan</strong> <a name="ControlPlan"></a><br><br><em>4.1</em> <strong>Monitoring and Control</strong>  <a name="MonitoringandControl"></a></p>
+<p>The following list of dates includes formal reviews outside of the Communication Plan.  Milestones are included to reference where the project is scheduled to stand as these reviews occur:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Date</strong></th>
+<th><strong>Review / Milestone</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>10/27/2019</em></td>
+<td><em>Milestone:</em> <em>Iteration #1 Complete</em></td>
+</tr>
+<tr>
+<td><em>11/03/2019</em></td>
+<td>Brief Status Report</td>
+</tr>
+<tr>
+<td><em>11/17/2019</em></td>
+<td>Status Report</td>
+</tr>
+<tr>
+<td><em>11/24/2019</em></td>
+<td><em>Milestone: Iteration #2 Complete</em></td>
+</tr>
+<tr>
+<td><em>12/01/2019</em></td>
+<td>Brief Status Report</td>
+</tr>
+<tr>
+<td><em>12/15/2019</em></td>
+<td><em>Milestone: Product Released</em></td>
+</tr>
+<tr>
+<td><em>12/19/2019</em></td>
+<td>Final Presentations</td>
+</tr>
+</tbody>
+</table>
+<p><em>4.2</em> <strong>Configuration Management Plan</strong> <a name="ConfigurationManagementPlan"></a></p>
+<p>The following procedure is to be used when making changes to all baselined work products:</p>
+<ol>
+<li>All project work products will be stored in a decentralized GitHub repository.</li>
+<li>All baselined documents will have a Document Control section with a change history to track initialization and subsequent changes.</li>
+<li>Items that are subject to change control will be considered baselined after a group review at the end of the initial document creation.</li>
+<li>Once a product is baselined:
+<ol>
+<li>anyone wanting to make a change to a baselined item sends a message to the rest of the teamdescribing the change, reason for the change, expected schedule impact, and time line for integrating the change.</li>
+<li>if no one responds to the group within a short time with a reason for why the change request shouldn't be permitted, it will be considered accepted and the person proposing the change may proceed with the change.</li>
+<li>if anyone does object to the change, the reason for objecting will be discussed at a meeting where everyone is invited to attend and voice their opinion.</li>
+<li>if a change takes place, the initiator must collaborate with the project manager to update the schedule.</li>
+</ol>
+</li>
+</ol>
+<hr>
+<p><em>5</em> <strong>Supporting Process Plans</strong> <a name="SupportingProcessPlans"></a>
+<br><br>
+<em>5.1</em> <strong>Risk Management Plan</strong> <a name="RiskManagementPlan"></a></p>
+<table>
+<thead>
+<tr>
+<th><strong>Rank</strong></th>
+<th><strong>Risk</strong></th>
+<th><strong>Probability of Loss</strong></th>
+<th><strong>Size of Loss</strong></th>
+<th><strong>Risk Exposure</strong></th>
+<th><strong>Response</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Schedule / time line delivery</td>
+<td>Likely</td>
+<td>Minor</td>
+<td>Low</td>
+<td>Mitigate: Stick to the schedule.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Learning curve for new tools and technologies longer than expected</td>
+<td>Unlikely</td>
+<td>Moderate</td>
+<td>Moderate</td>
+<td>Buy Information: Begin working on a basic prototype early to test out fundamental programming concepts &amp; knowledge</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Data feed not available from Spaggiari or SIGMA</td>
+<td>Unlikely</td>
+<td>Major</td>
+<td>Low</td>
+<td>Avoid: Be sure to be able to access Spaggiari and SIGMA databases via different working methods</td>
+</tr>
+</tbody>
+</table>
+<p><em>5.2</em> <strong>Test Plan</strong> <a name="TestPlan"></a></p>
+<p>The test plan defines the items that will be tested, methods for testing, and a schedule detailing the tasks, owners, and time line.</p>
+<p>These tests will be agreed with each teacher individually.</p>
+<p><em>5.3</em> <strong>Product Acceptance Plan</strong> <a name="ProductAcceptancePlan"></a></p>
+<p>At the conclusion of each iteration, the prototype created will be tested by the customer(s) to ensure it meets the requirements of that iteration.</p>
+<p>For the final iteration, product acceptance testing will ensure that the prototype functions as expected with a user's data.</p>
+
+    </body>
+    </html>
