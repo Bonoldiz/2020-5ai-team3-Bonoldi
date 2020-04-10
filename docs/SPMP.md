@@ -1,4 +1,4 @@
-# Software Project Management Plan <br><br> Team 3
+# Software Project Management Plan - Team 3
 
 *January 3, 2020*
 
@@ -23,7 +23,7 @@ This document is stored in the project&#39;s github repo.
 **Document Owner** *Enrico Bonoldi* <br>
 *Enrico Bonoldi is responsible for developing and maintaining this document.*
 
-- [Software Project Management Plan <br><br> Team 3](#software-project-management-plan-brbr-team-3)
+- [Software Project Management Plan - Team 3](#software-project-management-plan---team-3)
 - [Overview](#overview)
   - [Purpose and Scope](#purpose-and-scope)
   - [Goals and Objectives](#goals-and-objectives)
