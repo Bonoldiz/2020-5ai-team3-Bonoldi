@@ -1,11 +1,24 @@
 site_name: 2020_5AI_Team3
 
 nav:
+  - Part 1:
     - 'Project Charter': 'Project Charter.md'
     - 'Software Requirements Specification Plan': 'SRS.md'
     - 'Software Project Management Plan': 'SPMP.md'
+  - Part 2:
+    - 'Release Plan' : 'Release Plan.md'
+    - 'Iteration Plan' : 'Iteration Plan.md'
+    - 'Memo of Understanding' : 'Memo of Understanding.md'
+    - 'Project Success Criteria' : 'Project Success Criteria.md'
+    - 'Project Closure Report' : 'Project Closure Report.md'
+    - 'Status Report' : 'Status Report.md'
+    - 'Architecture, Design and Coding Standards' : 'Architecture, Design and Coding Standards.md'
+    - 'Test Plan' : 'Test Plan.md'
+    - 'Test Case Specification' : 'Test Case Specification.md'
+    - 'User Guide' : 'User Guide.md'
+    - 'System Documentation' : 'System Documentation.md'
+
    
-    
 theme:
     name: readthedocs
 

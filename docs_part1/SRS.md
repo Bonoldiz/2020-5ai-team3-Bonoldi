@@ -1,4 +1,5 @@
-# Software Requirements Specification<br><br>Team 3
+
+# Software Requirements Specification - Team 3 
 
 *December , 2019*
 
@@ -6,45 +7,44 @@
 
 *Prepared by: Bonoldi Enrico*
 
-# Table of Contents
-
-|     |
-| --- |
-|1 **INTRODUCTION**	|
-| &nbsp;&nbsp; *1.1* Overview |
-| &nbsp;&nbsp; *1.2* Goals and Objectives |
-| &nbsp;&nbsp; *1.3* Scope |
-| &nbsp;&nbsp; *1.4* Definitions |
-|2 **GENERAL DESIGN CONSTRAINTS**|
-| &nbsp;&nbsp; *2.1* PCTO Manager Environment |
-| &nbsp;&nbsp; *2.2* User Characteristics |
-| &nbsp;&nbsp; *2.3* Mandated Constraints |
-|3 **NONFUNCTIONAL REQUIREMENTS** |
-| &nbsp;&nbsp;*3.1* Operational Requirements|
-| &nbsp;&nbsp;*3.2* Performance Requirements|
-| &nbsp;&nbsp;*3.3* Security Requirements|
-| &nbsp;&nbsp;*3.4* Documentation and Training|
-| &nbsp;&nbsp;*3.5* External Interface|
-| &nbsp;&nbsp;&nbsp;&nbsp; *3.5.1* User Interface|
-| &nbsp;&nbsp;&nbsp;&nbsp; *3.5.2* Software Interface|
-|4 **FUNCTIONAL REQUIREMENTS** |
-| &nbsp;&nbsp;*4.1* Required Features|
-| &nbsp;&nbsp;&nbsp;&nbsp; *4.1.1* Use Case: 1|
-| &nbsp;&nbsp;&nbsp;&nbsp; *4.1.2* Use Case: 2|
-| &nbsp;&nbsp;&nbsp;&nbsp; *4.1.3* Use Case: 3|
-| &nbsp;&nbsp;&nbsp;&nbsp; *4.1.4* Use Case: 4|
-| &nbsp;&nbsp;*4.2* Optional Features|
-| &nbsp;&nbsp;&nbsp;&nbsp;*4.2.1* Use Case: 5|
-
-Revision History
+**Revision History**
 
 | **Version** | **Date** | **Name** | **Description** |
 | --- | --- | --- | --- |
-| 1 | 12/01/19 | Bonoldi Enrico | Initial Document |
+| 1 | 12/01/2019 | Bonoldi Enrico | Initial Document |
+| 1 | 10/04/2020 | Bonoldi Enrico | Ref Update |
+| | | |
+- [Software Requirements Specification - Team 3](#software-requirements-specification---team-3)
+- [Introduction](#introduction)
+  - [Overview](#overview)
+  - [Goals and Objectives](#goals-and-objectives)
+  - [Scope](#scope)
+  - [Definitions](#definitions)
+- [General Design Constraints](#general-design-constraints)
+  - [PCTO Manager Environment](#pcto-manager-environment)
+  - [User Characteristics](#user-characteristics)
+    - [PCTO Manager Users](#pcto-manager-users)
+  - [Mandated Constraints](#mandated-constraints)
+- [Nonfunctional Requirements](#nonfunctional-requirements)
+  - [Operational Requirements](#operational-requirements)
+  - [Performance Requirements](#performance-requirements)
+  - [Security Requirements](#security-requirements)
+  - [Documentation and Training](#documentation-and-training)
+  - [External Interface](#external-interface)
+    - [User Interface](#user-interface)
+    - [Software Interface](#software-interface)
+- [Functional Requirements](#functional-requirements)
+  - [Required Features](#required-features)
+    - [Use Case: 1](#use-case-1)
+    - [Use Case: 2](#use-case-2)
+    - [Use Case: 3](#use-case-3)
+    - [Use Case: 4](#use-case-4)
+  - [Optional Features](#optional-features)
+    - [Use Case: 5](#use-case-5)
 ___
-*1* **Introduction**
+# Introduction
 
-*1.1* **Overview**
+## Overview 
 
 The PCTO manager will be a system that will be available for the ITIS G.Marconi to manage the PCTO activity.
 
@@ -56,7 +56,7 @@ This document provides information on the requirements for the PCTO manager soft
 
 Project constraints will be included in separate documentation.  The Software Project Management Plan will give specifics on project budget and schedule.
 
-*1.2* **Goals and Objectives**
+## Goals and Objectives 
 
 The main objective of this project is to allow teachers a way to access PCTO schedules related to their students from any browser.
 
@@ -66,13 +66,13 @@ The PCTO Manager application is expected to:
 2. Provide an API system to access PCTO data.
 3. Provide a friendly web UI.
 
-*1.3* **Scope**
+## Scope
 
 The PCTO Manager application will provide users a method to access information about their students records about PCTO activities from any device via browser.
 
 Users will be able to check and update their status about documentation or other legal stuffs through the web app.
 
-*1.4* **Definitions**
+## Definitions
 
 **PCTO Manager**  **Application** – the product that is being described here; the software system specified in this document.
 
@@ -92,9 +92,9 @@ Users will be able to check and update their status about documentation or other
 
 **Stakeholder** – anyone with an interest in the project and its outcomes. This includes clients, customers, users, developers, testers, managers and executives.
 ___
-*2* **General Design Constraints**
+# General Design Constraints
 
-*2.1* **PCTO Manager Environment**
+## PCTO Manager Environment
 
 The PCTO Manager product will include a web app designed to work on any browser.
 
@@ -104,29 +104,31 @@ This API system will interface with the database.
 
 The backend system will be designed to import and export data related to students and companies.
 
-*2.2* **User Characteristics**
+## User Characteristics
 
-**PCTO Manager**  **Users** : ITIS G.Marconi students (3rd and 4th year), teachers and staff.
+###  PCTO Manager Users 
 
-*2.3* **Mandated Constraints**
+ITIS G.Marconi students (3rd and 4th year), teachers and staff.
+
+## Mandated Constraints
 
 The application will run on any browser.
 
 This platform was chosen based on experience with web development and backend systems.
 ___
-*3* **Nonfunctional Requirements**
+# Nonfunctional Requirements
 
-*3.1* **Operational Requirements**
+## Operational Requirements
 
 Usability: Users will not need to read the user manual to be able to use the application as a prospective otherwise for a better usage is suggested to read the user manual.
 
 Flexibility: the whole app is designed to support a lot of tabular data
 
-*3.2* **Performance Requirements**
+## Performance Requirements
 
 Maintainability: As any back/front system the app is splitted between presentation and business side, these are standalone.
 
-*3.3* **Security Requirements**
+## Security Requirements
 
 The PCTO Manager app has a secury layer that allows to identify the entity as students or teacher.
 
@@ -134,16 +136,15 @@ Each User has is own pair of username and password.
 
 The PCTO data is protected as private data and no other data is collected.
 
-*3.4* **Documentation and Training**
+## Documentation and Training
 
 The PCTO Manager application will be delivered to the school  as a web app.
 
 A user guide and system documentation will be provided to project stakeholders.
 
+## External Interface
 
-*3.5* **External Interface**
-
-*3.5.1* **User Interface**
+### User Interface
 
 The user interface will be friendly and clear.
 
@@ -155,15 +156,15 @@ As a web app it will be streamlined and simple to use.
 
 Training will be provided to a close stakeholders group.
 
-*3.5.2* **Software Interface**
+### Software Interface
 
 The PCTO Manager API system will serve as an interface between the Web application and the frontend application.
 ___
-*4* **Functional Requirements**
+# Functional Requirements
 
-*4.1* **Required Features**
+## Required Features
 
-*4.1.1* **Use Case: 1**
+### Use Case: 1
 
 **Description: User Login / Check**  **Entity Type**
 
@@ -180,7 +181,7 @@ Basic Path
 3. The login page is defined by two text box with username and password.
 4. If this pair is valid a new ID(token) is give to the user instance otherwise an error badge is prompt
 
-*4.1.2* **Use Case: 2**
+### Use Case: 2
 
 **Description:**  **Teacher companies/students view**
 
@@ -197,7 +198,7 @@ Basic Path
 
 
 
-*4.1.3* **Use Case: 3**
+### Use Case: 3
 
 **Description: Teacher companies/students details view**
 
@@ -212,7 +213,7 @@ Basic Path
 1. User clicks on any user/company row in the companies/students view table.
 2. User will be able to access a section with details about the selected resource.
 
- *4.1.4* **Use Case: 4**
+### Use Case: 4
 
 **Description: Student view**
 
@@ -227,9 +228,9 @@ Basic Path
 1. User access the home page.
 2. User will be able to access details about the account and the editable status of the his documentation.
 
-*4.2* **Optional Features**
+## Optional Features
 
-*4.2.1* **Use Case: 5**
+### Use Case: 5
 
 **Description: Teacher edit companies/students details view**
 
