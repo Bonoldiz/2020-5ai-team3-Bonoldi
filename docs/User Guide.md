@@ -12,11 +12,16 @@ The PCTO Manager web application allows the user to manage his PCTO activities t
 ## Quick Start Guide
 
 1. Open a search engine and type pctomanager.marconiverona.edu.it. The login screen will appear.
+
 ![User Guide 1](./assets/User_guide_1.png)
+
 2. Enter your E-Mail and Password.
+
 ![User Guide 2](./assets/User_guide_2.png)
-3. Tap the Login button.
-4. . Current PCTO activities will be displayed.
+
+1. Tap the Login button.
+
+2. . Current PCTO activities will be displayed.
 
 
 ## System Requirements
@@ -29,6 +34,7 @@ The web application can be accessed from any device that is Mac, Linux, Windows 
 
 1. Slide your finger from left to right, you will open the main menu with the various sections.
 2. Click on the section you want to visit
+
 ![User Guide 3](./assets/User_guide_1.png)
 
 ## Troubleshooting
