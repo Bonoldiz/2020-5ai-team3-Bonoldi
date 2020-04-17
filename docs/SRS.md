@@ -1,4 +1,3 @@
-
 # Software Requirements Specification - Team 3 
 
 *December , 2019*
