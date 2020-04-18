@@ -2,7 +2,7 @@
 
 **Team 3** - February 27, 2020
 
-**Team Members: ** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
 
 # Contents
 
