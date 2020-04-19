@@ -4,14 +4,17 @@
 
 **Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
 
-
-
-<br>
 **Revision History**
 
 | **Version** | **Date** | **Name**      | **Description**  |
 | ----------- | -------- | ------------- | ---------------- |
 | 1           | 27/02/20 | Marco Ambrosi | Initial Document |
+
+- [System Documentation - PCTO Manager](#system-documentation---pcto-manager)
+  - [Introduction](#introduction)
+  - [Setup Laravel and React](#setup-laravel-and-react)
+  - [Connect the project to SIGMA database](#connect-the-project-to-sigma-database)
+  - [System Maintenance](#system-maintenance)
 
 ## Introduction
 

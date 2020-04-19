@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>System Documentation - PCTO Manager</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h1 id="system-documentation---pcto-manager">System Documentation - PCTO Manager</h1>
+<p><strong>Team 3</strong> - February 27, 2020</p>
+<p><strong>Team Members:</strong> Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca</p>
+<p><strong>Revision History</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Version</strong></th>
+<th><strong>Date</strong></th>
+<th><strong>Name</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>27/02/20</td>
+<td>Marco Ambrosi</td>
+<td>Initial Document</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><a href="#system-documentation---pcto-manager">System Documentation - PCTO Manager</a>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#setup-laravel-and-react">Setup Laravel and React</a></li>
+<li><a href="#connect-the-project-to-sigma-database">Connect the project to SIGMA database</a></li>
+<li><a href="#system-maintenance">System Maintenance</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>The PCTO Manager application allows users to access every student's internship experiences. This document will provide instructions for accessing the application code and installing it into a machine that will function as a server.</p>
+<h2 id="setup-laravel-and-react">Setup Laravel and React</h2>
+<p>Everything you need to install the application (which means Laravel / React) is saved as a Docker image in an online repository:</p>
+<p><a href="https://github.com/Bonoldiz/PCTO">https://github.com/Bonoldiz/PCTO</a></p>
+<p>The repository is private, so you have to ask the owner in order to access it.</p>
+<p>Once you've done that, you're ready to launch the appropriate &quot;clone&quot; Git command to clone the repository, then you must create a Docker container from the downloaded image and run the container itself. More information on required Git and Docker commands here:</p>
+<p><a href="https://docs.docker.com/get-started/part2/">https://docs.docker.com/get-started/part2/</a></p>
+<h2 id="connect-the-project-to-sigma-database">Connect the project to SIGMA database</h2>
+<p>In order to connect to the school's SIGMA database, you'll need to modify the &quot;DATABASE&quot; entry and the relative ip, username and password inside Laravel's &quot;.env&quot; file. This will ensure that the right parameters are set to establish a successful connection to SIGMA.</p>
+<h2 id="system-maintenance">System Maintenance</h2>
+<p>PCTO Manager uses its own Web API to obtain information, that will be returned as a combination of Spaggiari's SOAP API Service's data and SIGMA's database data. This is possible thanks to the project's ETL and Web API: the first will format Spaggiari's data in order to be compatible with SIGMA's data, while the second will submit the users' queries to SIGMA. From a user's point of view, an easily readable report on what was asked will be displayed on screen, where the user will be able to modify various internship experiences as well as utilize the website in its integrity.</p>
+
+    </body>
+    </html>
