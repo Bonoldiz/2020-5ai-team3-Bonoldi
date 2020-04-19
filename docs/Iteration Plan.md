@@ -5,6 +5,7 @@
 **Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
 
 **Revision History**
+
 | **Revision** | **Change Date** | **Description of changes** |
 | ------------ | --------------- | -------------------------- |
 | V1.0         | 10/04/2020      | Initial Release            |

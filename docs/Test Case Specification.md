@@ -5,6 +5,7 @@
 **Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
 
 **Revision History**
+
 | **Version** | **Date** | **Name**      | **Description**  |
 | ----------- | -------- | ------------- | ---------------- |
 | 1           | 10/04/20 | Marco Ambrosi | Initial Document |
