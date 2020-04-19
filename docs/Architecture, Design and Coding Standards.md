@@ -1,11 +1,19 @@
-#  Architecture, Design and Coding Standards - Team 3 - PCTO manager
+# Architecture, Design and Coding Standards - PCTO manager
 
-| **Author** | **Change Date** | **Description of changes** |
-| ---------- | --------------- | -------------------------- |
-| E. Bonoldi | 11/04/2020      | Initial Release            |
-|            |                 |                            |
+**Team 3** - April 10, 2020
 
-- [Architecture, Design and Coding Standards - Team 3 - PCTO manager](#architecture-design-and-coding-standards---team-3---pcto-manager)
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
+
+**Revision History**
+
+| **Author**   | **Change Date** | **Description of changes** |
+| ------------ | --------------- | -------------------------- |
+| L. Lorenzoni | 8/04/2020       | Initial Release            |
+| E. Bonoldi   | 10/04/2020      | Corrections                |
+|              |                 |                            |
+
+
+- [Architecture, Design and Coding Standards - PCTO manager](#architecture-design-and-coding-standards---pcto-manager)
   - [Introduction](#introduction)
   - [Design](#design)
   - [Architecture](#architecture)

@@ -1,10 +1,8 @@
-# Test Plan - Team 3 - PCTO Manager
+# Test Plan - PCTO Manager
 
-*April , 2020*
+**Team 3** - April 10, 2020
 
-*Version 1*
-
-*Prepared by: Luca Lorenzoni*
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
 
 **Revision History**
 
@@ -13,8 +11,7 @@
 | L. Lorenzoni | 13/04/2020      | Initial Release            |
 |              |                 |                            |
 
-
-- [Test Plan - Team 3 - PCTO Manager](#test-plan---team-3---pcto-manager)
+- [Test Plan - PCTO Manager](#test-plan---pcto-manager)
   - [Introduction](#introduction)
   - [Incidents](#incidents)
   - [Defects](#defects)
@@ -61,7 +58,7 @@ This section defines the incidents discovered while performing various tests on 
 | Responder   | Lorenzoni Luca - Bonoldi Enrico                          |
 | Cause       | Exported data was not nomalized and errors were presents |
 | Status      | Close                                                    |
-| Resolution  | Validation system                                        |s
+| Resolution  | Validation system                                        | s |
  
 
 ## Defects

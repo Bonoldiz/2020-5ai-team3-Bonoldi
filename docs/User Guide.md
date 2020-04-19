@@ -1,9 +1,23 @@
-#  User Guide - Team 3 - PCTO manager
+# User Guide - PCTO manager
+
+**Team 3** - April 10, 2020
+
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
+
+**Revision History**
 
 | **Author**   | **Change Date** | **Description of changes** |
 | ------------ | --------------- | -------------------------- |
 | L. Lorenzoni | 13/04/2020      | Initial Release            |
 |              |                 |                            |
+
+- [User Guide - PCTO manager](#user-guide---pcto-manager)
+  - [Introduction](#introduction)
+  - [Quick Start Guide](#quick-start-guide)
+  - [System Requirements](#system-requirements)
+  - [Main Scenarios of Use](#main-scenarios-of-use)
+    - [View Menù](#view-men%c3%b9)
+  - [Troubleshooting](#troubleshooting)
 
 ## Introduction
 
@@ -35,7 +49,7 @@ The web application can be accessed from any device that is Mac, Linux, Windows 
 1. Slide your finger from left to right, you will open the main menu with the various sections.
 2. Click on the section you want to visit
 
-![User Guide 3](./assets/User_guide_1.png)
+![User Guide 3](./assets/User_guide_3.png)
 
 ## Troubleshooting
 

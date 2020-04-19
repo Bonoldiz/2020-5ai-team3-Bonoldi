@@ -12,7 +12,7 @@
 | --- | --- | --- | --- |
 | 1 | 12/01/2019 | Bonoldi Enrico | Initial Document |
 | 1 | 10/04/2020 | Bonoldi Enrico | Ref Update |
-| --- | --- | --- | --- |
+|  |  |  |  |
 
 - [Software Requirements Specification - Team 3](#software-requirements-specification---team-3)
 - [Introduction](#introduction)

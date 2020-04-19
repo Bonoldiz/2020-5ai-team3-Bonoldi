@@ -1,11 +1,16 @@
-# Iteration Plan - Team 3 - PCTO Manager
+# Iteration Plan - PCTO Manager
 
+**Team 3** - April 10, 2020
+
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
+
+**Revision History**
 | **Revision** | **Change Date** | **Description of changes** |
 | ------------ | --------------- | -------------------------- |
 | V1.0         | 10/04/2020      | Initial Release            |
 |              |                 |                            |
 
-- [Iteration Plan - Team 3 - PCTO Manager](#iteration-plan---team-3---pcto-manager)
+- [Iteration Plan - PCTO Manager](#iteration-plan---pcto-manager)
 - [Iteration #1](#iteration-1)
   - [Objectives](#objectives)
   - [Task Schedule](#task-schedule)

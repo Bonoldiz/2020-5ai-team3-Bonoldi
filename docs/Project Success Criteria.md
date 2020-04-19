@@ -1,4 +1,16 @@
-# Project Success Criteria - Team 3 - PCTO Manager
+# Project Success Criteria - PCTO Manager
+
+**Team 3** - April 10, 2020
+
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
+
+**Revision History**
+| **Author** | **Change Date** | **Description of changes** |
+| ---------- | --------------- | -------------------------- |
+| E. Bonoldi | 10/04/2020      | Initial Release            |
+| M. Ambrosi | 11/04/2020      | Update                     |
+|            |                 |                            |
+
 
 ## *the Project Manager project will be considered a success if...*
 

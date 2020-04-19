@@ -1,4 +1,22 @@
-# Memo of Understanding - Team 3 - PCTO Manager
+# Memo of Understanding - PCTO Manager
+
+**Team 3** - April 10, 2020
+
+**Team Members:** Ambrosi Marco, Bonoldi Enrico, Lorenzoni Luca
+
+**Revision History**
+| **Author**   | **Change Date** | **Description of changes** |
+| ------------ | --------------- | -------------------------- |
+| E. Bonoldi   | 10/04/2020      | Initial Release            |
+| L. Lorenzoni | 11/04/2020      | Syntax Fix                 |
+|              |                 |                            |
+
+- [Memo of Understanding - PCTO Manager](#memo-of-understanding---pcto-manager)
+  - [Purpose](#purpose)
+  - [Objectives, Scope, and Major Activities](#objectives-scope-and-major-activities)
+  - [Responsibilities](#responsibilities)
+  - [Services](#services)
+  - [Duration and Amendments of the MOU](#duration-and-amendments-of-the-mou)
 
 ## Purpose
 
