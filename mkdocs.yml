@@ -5,6 +5,8 @@ nav:
     - 'Project Charter': 'Project Charter.md'
     - 'Software Requirements Specification Plan': 'SRS.md'
     - 'Software Project Management Plan': 'SPMP.md'
+    - 'Business Model Canvas': 'Business Model Canvas.pdf'
+    - 'Project Model Canvas': 'Project Model Canvas.pdf'
   - Part 2:
     - 'Release Plan' : 'Release Plan.md'
     - 'Iteration Plan' : 'Iteration Plan.md'
