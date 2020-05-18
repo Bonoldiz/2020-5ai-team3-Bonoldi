@@ -19,6 +19,18 @@ nav:
     - 'Test Case Specification' : 'Test Case Specification.md'
     - 'User Guide' : 'User Guide.md'
     - 'System Documentation' : 'System Documentation.md'
+  - PDF:
+    - 'Release Plan' : 'Release Plan.pdf'
+    - 'Iteration Plan' : 'Iteration Plan.pdf'
+    - 'Memo of Understanding' : 'Memo of Understanding.pdf'
+    - 'Project Success Criteria' : 'Project Success Criteria.pdf'
+    - 'Project Closure Report' : 'Project Closure Report.pdf'
+    - 'Status Report' : 'Status Report.pdf'
+    - 'Architecture, Design and Coding Standards' : 'Architecture, Design and Coding Standards.pdf'
+    - 'Test Plan' : 'Test Plan.pdf'
+    - 'Test Case Specification' : 'Test Case Specification.pdf'
+    - 'User Guide' : 'User Guide.pdf'
+    - 'System Documentation' : 'System Documentation.pdf'
 
    
 theme:
